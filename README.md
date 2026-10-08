@@ -2,6 +2,8 @@
 
 An AI-powered code reviewer that analyzes git diffs and provides detailed feedback.
 
+> **Note:** This project is a work in progress.
+
 ## Prerequisites
 
 - Python 3.13+
