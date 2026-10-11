@@ -8,7 +8,7 @@
         "properties": {
           "severity": {
             "type": "string",
-            "enum": ["BLOCKER", "WARNING", "NITPICK", "OTHER"]
+            "enum": ["CRITICAL", "MAJOR", "MINOR", "OTHER"]
           },
           "file": {
             "type": "string",

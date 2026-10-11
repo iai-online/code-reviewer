@@ -57,5 +57,6 @@ uv run src/review.py changes.diff
 
 | Tag | Changes |
 |-----|---------|
+| [v0.3.0](https://github.com/pradnya-git-dev/code-reviewer/releases/tag/v0.3.0) | Enhance the system prompt for the code reviewer: `prompts/system.md` |
 | [v0.2.0](https://github.com/pradnya-git-dev/code-reviewer/releases/tag/v0.2.0) | Structured JSON output via `schemas/findings.json`; refactored review logic into `review_diff()`; added `src/helpers.py` with `ROOT` and `first_text` utilities |
 | [v0.1.0](https://github.com/pradnya-git-dev/code-reviewer/releases/tag/v0.1.0) | Basic diff review via Claude API; plain-text response printed to stdout; `uv` project setup with `.env` config and demo diff |
