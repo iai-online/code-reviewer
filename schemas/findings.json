@@ -25,9 +25,13 @@
           "suggestion": {
             "type": "string",
             "description": "The concrete change that fixes it."
+          },
+          "confidence": {
+            "type": "number",
+            "description": "From 0 to 1. How sure you are that this is a real problem."
           }
         },
-        "required": ["severity", "file", "line", "issue", "suggestion"],
+        "required": ["severity", "file", "line", "issue", "suggestion", "confidence"],
         "additionalProperties": false
       }
     }
